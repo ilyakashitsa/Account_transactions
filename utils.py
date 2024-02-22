@@ -29,7 +29,7 @@ def format_operation_date(date):
     """
     Форматирует дату операции в требуемый формат (ДД.ММ.ГГГГ).
     """
-    return  datetime.fromisoformat(date).strftime('%d.%m.%Y')
+    return datetime.fromisoformat(date).strftime('%d.%m.%Y')
 
 
 def display_last_executed_operations(operations):
